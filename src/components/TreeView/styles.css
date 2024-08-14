@@ -1,0 +1,33 @@
+.custom-tree-view {
+  overflow: hidden;
+}
+.custom-tree-view .Mui-selected,
+.custom-tree-view .Mui-selected:hover {
+  background-color: #fff0ee;
+}
+
+/* .child-item [class*="-MuiTreeItem2-label"] {
+  color: #16151c !important;
+  font-size: 16px !important;
+} */
+
+.child-item div:last-child {
+  color: #16151c !important;
+  font-size: 16px !important;
+}
+
+/* .parent-item [class*="-MuiTreeItem2-label"] {
+  color: #16151c;
+  font-size: 16px !important;
+  font-weight: 700 !important;
+} */
+
+.parent-item div:last-child {
+  color: #16151c;
+  font-size: 16px !important;
+  font-weight: 700 !important;
+}
+
+.parent-no-child {
+  margin-left: 20px;
+}

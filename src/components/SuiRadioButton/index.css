@@ -1,0 +1,89 @@
+.radio-label {
+  font-family: 'Nunito Sans';
+  color: #3F4254;
+  font-size: 14px;
+  font-weight: 400;
+  margin-right: 40px;
+  line-height: 175%;
+  width: 52px;
+  height: 25px;
+  cursor: pointer;
+}
+
+.radio-input {
+  margin: 0;
+  visibility: hidden;
+}
+
+.radio-input1 {
+  margin: 0;
+  visibility: hidden;
+}
+
+.radio-input:checked + span {
+  border: 5px solid #FDF2E8;
+}
+
+.radio-input1:checked + span {
+  border: 5px solid #e1e3e9;
+}
+
+.radio-input:checked + span:after {
+  opacity: 1;
+}
+.radio-input1:checked + span:after {
+  opacity: 1;
+}
+
+.custom-radio {
+  left: -9px;
+  top: 6px;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #FFC000;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+}
+
+.custom-radio1 {
+  left: -9px;
+  top: 6px;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #8a92a6;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+}
+
+/* after check */
+.custom-radio::after {
+  content: '';
+  width: 10px;
+  height: 10px;
+  background: #f4b400;
+  position: absolute;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+/* after check */
+.custom-radio1::after {
+  content: '';
+  width: 10px;
+  height: 10px;
+  background: #8a92a6;
+  position: absolute;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 0.2s;
+}

@@ -1,0 +1,27 @@
+.sideBarElement {
+    overflow: hidden;
+    background-color: #FFF0EE;
+    width: 80%;
+    border-radius: 10px;
+    margin: auto;
+}
+.sideBarElement:hover {
+    background-color: #FFF0EE;
+}
+
+.sidenavCollapse {
+    /* opacity: 0.6; */
+    cursor: pointer;
+    margin: auto;
+}
+
+.sidenavCollapse:hover {
+    transition: all 0.1s ease-in-out;
+    /* opacity: 1; */
+    /* transform: scale(1.01); */
+}
+.sidenavCollapse:active {
+    transition: all 0.1s ease-in-out;
+    opacity: 0.9;
+    transform: scale(1);
+}

@@ -1,0 +1,102 @@
+@import "rsuite/dist/rsuite.css";
+
+.hiddenPlaceHolder input::placeholder {
+  color: white;
+}
+
+.rs-input-group {
+  border: none !important;
+}
+
+.rs-input {
+  padding: 8px 0 0 4px !important;
+}
+
+.rs-input-group.rs-input-group-inside .rs-input-group-addon {
+  padding: 4px 3px 0 0 !important;
+}
+
+.rs-input-group:focus-within {
+  border-color: white !important;
+  border: none !important;
+  outline: none !important;
+}
+
+.rs-picker-default .rs-picker-toggle.rs-btn {
+  /* padding-top: 9px;
+  padding-bottom: 9px; */
+}
+.rs-picker-toggle-wrapper {
+  margin-top: -2px;
+  margin-bottom: 3px;
+
+  display: flex !important;
+  align-items: center !important;
+  margin-bottom: 0 !important;
+}
+.rs-picker-default .rs-picker-toggle {
+  border: none;
+  background-color: transparent !important;
+}
+.rs-picker-toggle-read-only {
+  opacity: 1;
+}
+.rs-picker-has-value .rs-btn .rs-picker-toggle-value,
+.rs-picker-has-value .rs-picker-toggle .rs-picker-toggle-value {
+  opacity: 0;
+}
+.rs-picker-default:not(.rs-picker-disabled) .rs-btn:hover,
+.rs-picker-default:not(.rs-picker-disabled) .rs-picker-toggle:hover,
+.rs-picker-default:not(.rs-picker-disabled) .rs-btn:focus,
+.rs-picker-default:not(.rs-picker-disabled) .rs-picker-toggle:focus,
+.rs-picker-default:not(.rs-picker-disabled) .rs-btn-active,
+.rs-picker-default:not(.rs-picker-disabled) .rs-picker-toggle-active {
+  border: none;
+  border-width: 0;
+  box-shadow: none;
+}
+
+.rs-picker-has-value .rs-btn .rs-picker-toggle-value,
+.rs-picker-has-value .rs-picker-toggle .rs-picker-toggle-value {
+  color: var(--gray-100);
+}
+.rs-picker-toggle .rs-picker-toggle-placeholder {
+  opacity: 0;
+}
+
+.rs-picker-toolbar-right .rs-btn-sm {
+  font-size: 0;
+  width: 80px;
+  position: relative;
+}
+.rs-picker-toolbar-right .rs-btn-sm :after {
+  content: "Áp dụng";
+  font-size: 14px;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.rs-picker-toggle-textbox {
+  border: none;
+  background-color: transparent;
+  padding-left: 4px;
+}
+
+.rs-picker-toggle-textbox::placeholder {
+  font-style: italic;
+}
+
+.rs-picker-daterange .rs-picker-toggle.rs-btn .rs-picker-toggle-caret,
+.rs-picker-date .rs-picker-toggle.rs-btn .rs-picker-toggle-caret,
+.rs-picker-date .rs-picker-toggle.rs-btn .rs-picker-toggle-clean,
+.rs-picker-daterange .rs-picker-toggle.rs-btn .rs-picker-toggle-clean {
+  right: 3px;
+}
+.rs-picker-menu {
+  z-index: 99999;
+}
+.rs-picker-toggle-caret.rs-icon {
+  width: 15px;
+}

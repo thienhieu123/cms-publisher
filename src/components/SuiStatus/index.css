@@ -1,0 +1,118 @@
+/*box*/
+.label-new,
+.label-inProgress,
+.label-success,
+.label-cancel,
+.label-pending,
+.label-waiting {
+  display: inline-block;
+  flex-direction: row;
+  align-items: center;
+  padding: 3px 6px;
+  gap: 10px;
+
+  position: relative;
+  border-radius: 6px;
+}
+
+.label-new {
+  background: #ecf8ff;
+}
+
+.label-inProgress {
+  background: #fffcf0;
+}
+
+.label-success {
+  background: #e7fbed;
+}
+
+.label-cancel {
+  background: #fff5f8;
+}
+
+.label-pending {
+  background: #e1e3e9;
+}
+
+.label-waiting {
+  background: #eee5ff;
+}
+
+.radio-label-new,
+.radio-label-inProgress,
+.radio-label-success,
+.radio-label-cancel,
+.radio-label-pending,
+.radio-label-waiting {
+  font-family: "Nunito Sans";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 19px;
+  position: relative;
+  vertical-align: middle;
+}
+
+.radio-label-new {
+  color: #00b6de;
+}
+
+.radio-label-inProgress {
+  color: #ffc000;
+}
+
+.radio-label-success {
+  color: #357b4c;
+}
+
+.radio-label-cancel {
+  color: #ff3c3c;
+}
+
+.radio-label-pending {
+  color: #3f4254;
+}
+
+.radio-label-waiting {
+  color: #8950fc;
+}
+
+.new,
+.inProgress,
+.success,
+.cancel,
+.pending,
+.waiting {
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  display: inline-block;
+  gap: 10px;
+  margin-right: 10px;
+  margin-bottom: 2px;
+  vertical-align: middle;
+}
+
+.new {
+  background-color: #00b6de;
+}
+
+.inProgress {
+  background-color: #ffc000;
+}
+
+.success {
+  background-color: #357b4c;
+}
+
+.cancel {
+  background-color: #ff3c3c;
+}
+
+.pending {
+  background-color: #3f4254;
+}
+
+.waiting {
+  background-color: #8950fc;
+}

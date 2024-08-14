@@ -1,0 +1,25 @@
+.inputStyle {
+  width: 65% !important;
+  height: 50px;
+  border-radius: 12px;
+  border: none;
+  margin-left: 8px;
+  margin-right: 8px;
+  background: var(--blue-gray-line);
+  font-size: 20px;
+  /* display: flex;
+  justify-content: center; */
+}
+.inputStyle:focus {
+  border: 0 !important;
+  /* border-color: var(--blue-gray-line); */
+  /* border-style: none !important; */
+}
+
+@media only screen and (max-width: 575px) {
+  .inputStyle {
+    width: 35px !important;
+    height: 45px !important;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,80 @@
+@import "rsuite/dist/rsuite.css";
+
+.rs-picker-default .rs-picker-toggle.rs-btn {
+  /* padding-top: 9px;
+  padding-bottom: 9px; */
+}
+.rs-picker-toggle-wrapper {
+  margin-top: -6px;
+  margin-bottom: 3px;
+}
+.rs-picker-default .rs-picker-toggle {
+  border: none;
+  background-color: transparent !important;
+}
+.rs-picker-toggle-read-only {
+  opacity: 1;
+}
+.rs-picker-has-value .rs-btn .rs-picker-toggle-value,
+.rs-picker-has-value .rs-picker-toggle .rs-picker-toggle-value {
+  opacity: 0;
+}
+.rs-picker-default:not(.rs-picker-disabled) .rs-btn:hover,
+.rs-picker-default:not(.rs-picker-disabled) .rs-picker-toggle:hover,
+.rs-picker-default:not(.rs-picker-disabled) .rs-btn:focus,
+.rs-picker-default:not(.rs-picker-disabled) .rs-picker-toggle:focus,
+.rs-picker-default:not(.rs-picker-disabled) .rs-btn-active,
+.rs-picker-default:not(.rs-picker-disabled) .rs-picker-toggle-active {
+  border: none;
+  border-width: 0;
+  box-shadow: none;
+}
+
+.rs-picker-has-value .rs-btn .rs-picker-toggle-value,
+.rs-picker-has-value .rs-picker-toggle .rs-picker-toggle-value {
+  color: var(--gray-100);
+}
+.rs-picker-toggle .rs-picker-toggle-placeholder {
+  opacity: 0;
+}
+
+.rs-picker-toolbar-right .rs-btn-sm {
+  font-size: 0;
+  width: 80px;
+  position: relative;
+}
+.rs-picker-toolbar-right .rs-btn-sm :after {
+  content: "Áp dụng";
+  font-size: 14px;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.rs-picker-toggle-textbox {
+  border: none;
+  background-color: transparent;
+  padding-left: 4px;
+}
+
+.rs-picker-toggle-textbox::placeholder {
+  font-style: italic;
+}
+
+.rs-picker-daterange .rs-picker-toggle.rs-btn .rs-picker-toggle-caret,
+.rs-picker-date .rs-picker-toggle.rs-btn .rs-picker-toggle-caret,
+.rs-picker-date .rs-picker-toggle.rs-btn .rs-picker-toggle-clean,
+.rs-picker-daterange .rs-picker-toggle.rs-btn .rs-picker-toggle-clean {
+  right: 3px;
+}
+.rs-picker-menu {
+  z-index: 99999;
+}
+.rs-picker-toggle-caret.rs-icon {
+  width: 15px;
+}
+
+.rs-input-group.rs-input-group-disabled .rs-input {
+  background: #f5f5f5;
+}

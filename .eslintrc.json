@@ -1,0 +1,71 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": [
+    "plugin:react/recommended",
+    "airbnb",
+    "prettier"
+  ],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 12,
+    "sourceType": "module"
+  },
+  "plugins": [
+    "react",
+    "prettier"
+  ],
+  "rules": {
+    "arrow-body-style": "off",
+    "no-throw-literal": "off",
+    "react/jsx-boolean-value": "off",
+    "import/no-cycle": "off",
+    "no-nested-ternary": "off",
+    "import/prefer-default-export": "off",
+    "react/jsx-no-bind": "off",
+    "spaced-comment": "off",
+    "react/no-array-index-key": "off",
+    "no-lonely-if": "off",
+    "prettier/prettier": [
+      "error",
+      {
+        "endOfLine": "auto"
+      }
+    ],
+    "default-param-last": "off",
+    "react/react-in-jsx-scope": "off",
+    "no-param-reassign": "off",
+    "react/jsx-filename-extension": [
+      1,
+      {
+        "extensions": [
+          ".js",
+          ".jsx"
+        ]
+      }
+    ],
+    "react/jsx-props-no-spreading": [
+      1,
+      {
+        "custom": "ignore"
+      }
+    ],
+    "react/jsx-curly-spacing": [
+      2,
+      "never"
+    ]
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "paths": [
+          "src"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,166 @@
+.popup {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 8px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  /* padding: 15px; */
+  width: fit-content;
+  max-width: 90%;
+}
+
+.full-width {
+  width: 100%;
+}
+.popup-inner {
+  width: 90%;
+}
+
+.popup-30 {
+  width: 30%;
+}
+
+.rs-calendar-month-dropdown-row {
+  padding-left: 70px;
+}
+
+@media (max-width: 1000px) {
+  .popup {
+    min-width: 80%;
+  }
+}
+
+@media (max-width: 500px) {
+  .popup {
+    min-width: 90%;
+  }
+  .popup-inner {
+    height: 90%;
+    overflow: auto;
+    width: 90%;
+  }
+
+  .popup-inner .content {
+    height: inherit;
+  }
+}
+
+.floating-label {
+  height: 400px;
+}
+
+/* .close{
+    height: 12px;
+    width: 12px;
+    display: flex;
+    position: absolute;
+    top: 9px;
+    right: 4px;
+    color: #B5B5C3;
+    cursor: pointer;
+} */
+
+.groupButton {
+  display: flex;
+}
+
+.cancel-btn {
+  background: #ffffff;
+  display: flex;
+  padding: 9px 14px 9px 14px;
+  font-size: 14px;
+  margin: 20px 20px;
+  border: 2px solid black;
+  border-radius: 5px;
+  border-color: #00a1e4;
+  cursor: pointer;
+  color: #00a1e4;
+  align-items: center;
+}
+
+.ok-btn {
+  background: #00a1e4;
+  border: none;
+  color: white;
+  display: flex;
+  padding: 9px 14px 9px 14px;
+  font-size: 14px;
+  margin: 20px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  align-items: center;
+}
+
+.icon {
+  height: 36px;
+  width: 36px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  margin-bottom: 150px;
+  color: #ffc000;
+}
+
+.content {
+  display: block;
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+  width: 100%;
+}
+
+.text-header {
+  color: #54595e;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+}
+
+.text-content {
+  color: #b5b5c3;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 22px;
+}
+
+.textArea {
+  border-radius: 5px;
+  min-width: 400px;
+  min-height: 100px;
+  max-width: 500px;
+  max-height: 200px;
+  margin-bottom: 15px;
+  border-color: #e1e3e9;
+}
+
+.textArea:focus {
+  outline: none !important;
+  border-color: #e1e3e9;
+}
+
+.checkBox {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+}
+
+.content-checkBox {
+  font-family: "Nunito Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+}
+
+.small-popup {
+}

@@ -1,0 +1,29 @@
+.hover-child {
+  p,
+  img,
+  div {
+    transition: transform 0.3s cubic-bezier(0, 0, 0.5, 1);
+  }
+
+  &:hover {
+    & > p,
+    & > img {
+      transform: scale(1.1);
+    }
+
+    & > div {
+      transform: scale(1.03);
+    }
+  }
+}
+
+.card-content {
+  background-color: #fff;
+  border-radius: 1rem;
+}
+
+.tooltip-content {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
